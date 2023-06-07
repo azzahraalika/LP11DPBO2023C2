@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <title>To Do List</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.php">WIW</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <br />
+  <br />
+
+  <div style="margin-left: 5%">
+    <div style="margin-right: 5%">
+    <br>
+
+        <!-- Tabel 1 -->
+        <!-- <h3>TABEL PASIEN</h3> -->
+        <!-- TABEL1 -->
+
+        <form method="post" action="index.php">
+            
+            <br><br>
+            <div class="card">
+            
+                <div class="card-header bg-dark">
+                    <h1 class="text-white text-center">  DATA_TITLE Pasien </h1>
+                </div><br>
+
+                <input type="hidden" name="id" value="DATA_ID" class="form-control"> <br>
+
+                <label> NIK : </label>
+                <input type="text" name="nik" class="form-control" value="DATA_NIK" placeholder="add nik" required> <br>
+
+                <label> NAMA : </label>
+                <input type="text" name="nama" class="form-control" value="DATA_NAMA" placeholder="add nama" required> <br>
+
+                <label> TEMPAT: </label>
+                <input type="text" name="tempat" class="form-control" value="DATA_TEMPAT" placeholder="add tempat" required> <br>
+                
+                <label> TANGGAL LAHIR: </label>
+                <input type="date" name="tl" class="form-control" value="DATA_TL" required> <br>
+
+                <label> JENIS KELAMIN : </label>
+                <input type="text" name="gender" class="form-control" value="DATA_GENDER" placeholder="add jenis kelamin" required> <br>
+
+                <label> EMAIL : </label>
+                <input type="text" name="email" class="form-control" value="DATA_EMAIL" placeholder="add email" required> <br>
+
+                <label> NOMOR TELEPON: </label>
+                <input type="text" name="telp" class="form-control" value="DATA_TELP" placeholder="add nomor telepon" required> <br>
+
+                <button class="btn btn-success" type="submit" name="submit"> Submit </button><br>
+                <a class="btn btn-info" type="submit" name="cancel" href="index.php"> Cancel </a><br>
+
+
+            </div>
+        </form>
+
+    <br>
+
+
+
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
