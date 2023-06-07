@@ -9,5 +9,9 @@ Buatlah fitur CRUD pada database yang sudah disediakan, dan tampilkan 2 kolom em
 ## DOKUMENTASI 
 #### HOME
 ![home](https://github.com/azzahraalika/LP11DPBO2023C2/assets/101117829/f599cac9-e74b-4149-93eb-41e91fba08d7)
-https://github.com/azzahraalika/LP11DPBO2023C2/assets/101117829/c7b3682e-88a3-4b28-a3ac-18bd9549c281
+
+https://github.com/azzahraalika/LP11DPBO2023C2/assets/101117829/4a12c3b7-147b-45a0-8af8-0d78a5332c2a
+
+
+
 
